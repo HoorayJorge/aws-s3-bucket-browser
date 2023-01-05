@@ -12,7 +12,7 @@
       favicon: 'https://qoomon.github.io/aws-s3-bucket-browser/favicon.ico',
       primaryColor: '#fed767',
 
-      bucketUrl: undefined,
+      bucketUrl: 'https://s3.amazonaws.com/downloads.garlicoin.ninja/',
       // If bucketUrl is undefined, this script tries to determine bucket Rest API URL from this file location itself.
       //   This will only work for locations like these
       //   * https://s3.BUCKET-REGION.amazonaws.com/BUCKET-NAME/index.html
@@ -27,7 +27,7 @@
       keyExcludePatterns: [/^index\.html$/],
       pageSize: 50,
 
-      bucketMaskUrl: undefined,
+      bucketMaskUrl: 'https://downloads.garlicoin.ninja',
       // If bucketMaskUrl is set file urls will be changed from ${bucketUrl}/${file} to ${bucketMaskUrl}/${file}
       //   bucketMaskUrl: 'https://example.org'
       //     => https://example.org/foo/bar.txt
